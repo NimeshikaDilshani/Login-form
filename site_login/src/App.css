@@ -1,0 +1,119 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 150px;
+  margin-top: 200px;
+  background: #f8f1ea;
+  padding-bottom: 35px;
+  width: 550px;
+  height: 520px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  width: 100%;
+  margin-top: 20px;
+}
+.text{
+  color: #700cce;
+  font-size: 20px;
+  font-weight: 700;
+}
+.underline{
+  width: 61px;
+  height: 6px;
+  background: #700cce;
+  border-radius: 9px;
+}
+.inputs{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 600px;
+  height: 150px;
+  border-radius: 20px;
+}
+.input{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background:  #fffefd;
+}
+
+
+.iput img{
+  margin: 0px 30px;
+  size: 50px;
+}
+.input input{
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  background:  #fffefd;
+  font-size: 19px;
+}
+.forgot-password{
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #888;
+  font-size: 18px;
+}
+.submit{
+  max-width: max-content;
+}
+.submit button:hover{
+  background-color: #6a1129;
+}
